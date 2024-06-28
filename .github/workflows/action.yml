@@ -1,0 +1,51 @@
+# Enable Workflow writing permissions first (https://stackoverflow.com/questions/70538793/remote-write-access-to-repository-not-granted-fatal-unable-to-access)
+name: Run Linkedin search for 'Fundamentals of Analytics Engineering'
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    - cron: "* 9 * * *" # every day at 9 am
+
+jobs:
+  run:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.9]
+        os: [ubuntu-20.04]
+    runs-on: ${{ matrix.os }}
+    if: ${{ github.event_name == 'schedule' || github.ref == 'refs/heads/main'}}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -r requirements.txt
+      - name: run main.py
+        run: |
+          python main.py
+        env:
+          LINKEDIN_COOKIE: ${{ secrets.LINKEDIN_COOKIE }} # replace me
+
+      - name: Check if a specific file has changed
+        id: check_file
+        run: |
+              if git status --porcelain; then
+                echo "::set-output name=files_changed::true"
+              else
+                echo "::set-output name=files_changed::false"
+              fi
+
+      - uses: appleboy/telegram-action@master
+        if: steps.check_file.outputs.files_changed == 'true'
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            New files at https://flatgithub.com/lassebenni/linkedin_scraper_ae_book/blob/main/data/posts.json
+
+      - uses: lassebenni/publish-to-github-action@master
+        if: ${{ github.event_name == 'schedule' || github.ref == 'refs/heads/main' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: main

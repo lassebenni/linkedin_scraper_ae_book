@@ -1,0 +1,234 @@
+        {
+            "template": "CONTENT_A",
+            "actorNavigationContext": {
+                "openExternally": false,
+                "$recipeTypes": [
+                    "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                ],
+                "url": "https://www.linkedin.com/in/ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+                "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+            },
+            "bserpEntityNavigationalUrl": null,
+            "trackingUrn": "urn:li:activity:7179433074068201473",
+            "controlName": null,
+            "interstitialComponent": null,
+            "primaryActions": [],
+            "entityCustomTrackingInfo": null,
+            "badgeData": null,
+            "title": {
+                "textDirection": "FIRST_STRONG",
+                "text": "Dumky de Wilde",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": "Profiel van Dumky de Wilde weergeven",
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "overflowActions": [],
+            "*lazyLoadedActions": "urn:li:fsd_lazyLoadedActions:(urn:li:activity:7179433074068201473,CONTENT,SEARCH_SRP)",
+            "searchActionType": null,
+            "actorInsights": [],
+            "insightsResolutionResults": [
+                {
+                    "jobPostingInsight": null,
+                    "relationshipsInsight": null,
+                    "serviceProviderRatingInsight": null,
+                    "simpleInsight": null,
+                    "jobPostingFooterInsight": null,
+                    "socialActivityCountsInsight": null,
+                    "labelsInsight": null,
+                    "premiumCustomCtaInsight": null
+                }
+            ],
+            "badgeIcon": null,
+            "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:activity:7179433074068201473,SEARCH_SRP,DEFAULT)",
+            "showAdditionalCluster": false,
+            "ringStatus": null,
+            "primarySubtitle": {
+                "textDirection": "USER_LOCALE",
+                "text": "Analytics Engineer | Author | Speaker",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "badgeText": {
+                "textDirection": "USER_LOCALE",
+                "text": "• 1e",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "trackingId": "c2UDNhR4ThGWkY3sfMKaEA==",
+            "summary": {
+                "textDirection": "USER_LOCALE",
+                "text": "Whether you are an analyst, data engineer or an AI bot, you likely care about the quality and availability of the data you work with. This afternoon I'll be talking about exactly that in the context of our recently released book The Fundamentals of Analytics Engineering and how it can help you navigate the muddy waters of data and analytics in organisations. The e-book is out now, and you can pre-order the good ol' paper version.",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "actorNavigationUrl": "https://www.linkedin.com/in/ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+            "addEntityToSearchHistory": false,
+            "image": {
+                "attributes": [
+                    {
+                        "scalingType": null,
+                        "detailData": {
+                            "profilePictureWithoutFrame": null,
+                            "profilePictureWithRingStatus": null,
+                            "companyLogo": null,
+                            "icon": null,
+                            "systemImage": null,
+                            "nonEntityGroupLogo": null,
+                            "vectorImage": null,
+                            "nonEntityProfessionalEventLogo": null,
+                            "profilePicture": null,
+                            "imageUrl": null,
+                            "professionalEventLogo": null,
+                            "nonEntityCompanyLogo": null,
+                            "nonEntitySchoolLogo": null,
+                            "groupLogo": null,
+                            "schoolLogo": null,
+                            "ghostImage": null,
+                            "nonEntityProfilePicture": {
+                                "*profile": "urn:li:fsd_profile:ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+                                "ringStatus": null,
+                                "$recipeTypes": [
+                                    "com.linkedin.4b009c1d6ea192a94bda77fb9ace3a7d"
+                                ],
+                                "vectorImage": {
+                                    "digitalmediaAsset": null,
+                                    "attribution": null,
+                                    "c2paManifestData": null,
+                                    "$recipeTypes": [
+                                        "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9"
+                                    ],
+                                    "artifacts": [
+                                        {
+                                            "width": 100,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "https://media.licdn.com/dms/image/D4E03AQHV_z67ISTrkA/profile-displayphoto-shrink_100_100/0/1683821503728?e=1724889600&v=beta&t=ijRuGkHYE3nKjRwDFfr81PN-BFMvFEzIizABH3jhsF8",
+                                            "expiresAt": 1724889600000,
+                                            "height": 100,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        }
+                                    ],
+                                    "rootUrl": "",
+                                    "$type": "com.linkedin.common.VectorImage"
+                                },
+                                "$type": "com.linkedin.voyager.dash.common.image.NonEntityProfilePicture"
+                            }
+                        },
+                        "tintColor": null,
+                        "$recipeTypes": [
+                            "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                        ],
+                        "tapTargets": [],
+                        "displayAspectRatio": null,
+                        "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                    }
+                ],
+                "editableAccessibilityText": false,
+                "actionTarget": null,
+                "accessibilityTextAttributes": [],
+                "totalCount": null,
+                "accessibilityText": "Dumky de Wilde",
+                "$recipeTypes": [
+                    "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+            },
+            "secondarySubtitle": {
+                "textDirection": "USER_LOCALE",
+                "text": "Opnieuw geplaatst van Select Star • 3 mnd  ",
+                "attributesV2": [
+                    {
+                        "start": 42,
+                        "length": 1,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": "IC_GLOBE_16DP",
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": null,
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    }
+                ],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "entityEmbeddedObject": {
+                "summary": null,
+                "image": null,
+                "headerThumbnail": null,
+                "secondarySubtitle": null,
+                "trackingUrn": null,
+                "primaryActions": [],
+                "showPlayButton": false,
+                "title": null,
+                "$recipeTypes": [
+                    "com.linkedin.bd93318ac5710b71fba68ebb50fd5bfd"
+                ],
+                "renderStyle": "DEFAULT_CONTENT",
+                "$type": "com.linkedin.voyager.dash.search.EntityEmbeddedObject",
+                "primarySubtitle": null,
+                "headerTitle": null
+            },
+            "navigationUrl": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7179433074068201473%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4",
+            "unreadIndicatorDetails": null,
+            "$recipeTypes": [
+                "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109"
+            ],
+            "target": {
+                "updateV2Urn": "urn:li:fs_updateV2:(urn:li:activity:7179433074068201473,BLENDED_SEARCH_FEED,EMPTY,DEFAULT,false)",
+                "profile": null
+            },
+            "$type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+            "actorTrackingUrn": "urn:li:member:74377206",
+            "navigationContext": {
+                "openExternally": false,
+                "$recipeTypes": [
+                    "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                ],
+                "url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7179433074068201473%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4",
+                "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+            }
+        },

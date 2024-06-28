@@ -1,44 +1,107 @@
 [
-    {
-        "title": {
-            "text": "Connor Dickson"
-        },
-        "primary_subtitle": null,
-        "summary": {
-            "text_direction": null,
-            "text": "The concept of analytics engineering is comparatively new. \n\nTaking data engineering tasks and mashing it with the responsibilities of data analysts is somewhat novel. \n\nThat’s why I’m excited that Packt wrote a book on the Fundamentals of Analytics Engineering and sent me a copy! \n\nTheir book touches on topics such as:\n\n🔨 Building Data Pipelines \n\n🤔 Data Strategy \n\n👷‍♂️Building a Data Platform \n\nIf you want to learn more about analytics engineering, you’re in luck, Packt is giving away five copies (2 physical, 3 ebooks) of Fundamentals of Analytics Engineering! \n\nIf you want a chance to win a copy, just comment on this post and I’ll pick the winners with a RNG.  \n\nThe winners will be tagged in a future post, and receive a message from me. Don’t fall for any scams. Only my verfied account will be messaging you about the winners. \n\n#datawithdickson #analyticsengineering"
-        },
-        "actor_navigation_url": null,
-        "entity_embedded_object": null,
-        "navigation_url": null,
-        "template": "CONTENT_A"
-    },
-    {
-        "title": {
-            "text": "Fanny Kassapian"
-        },
-        "primary_subtitle": null,
-        "summary": {
-            "text_direction": null,
-            "text": "We wrote a book!!! 📘 🎉 \n\nI can't believe we made this happen in just a year. There was no blood, but there definitely was sweat and tears 😂. Incredibly proud of the amount of knowledge we put together. Thank you to the dream team: Juan Manuel Perafan Taís Laurindo Pereira Ricardo Angel Granados López Lasse Benninga Jovan Gligorevic Dumky de Wilde"
-        },
-        "actor_navigation_url": null,
-        "entity_embedded_object": null,
-        "navigation_url": null,
-        "template": "CONTENT_B"
-    },
-    {
-        "title": {
-            "text": "Dumky de Wilde"
-        },
-        "primary_subtitle": null,
-        "summary": {
-            "text_direction": null,
-            "text": "We wrote the book I wish I’d had five years ago and last week I was able to present it at our 10th analytics engineering meetup. There is a figure-it-out-yourself mentality in the data & analytics field that I enjoy tremendously, but sometimes it is nice to have a shortcut. The Fundamentals of Analytics Engineering (https://amzn.to/43KxIik) is one of those shortcuts. Each one of the amazing authors brings their own perspective and experience to get you up to speed on data warehouses, data modelling, data ingestion, observability, stakeholder management and navigating the tech landscape. Thanks for the journey Juan Manuel Perafan, Ricardo Angel Granados López Fanny Kassapian Taís Laurindo Pereira Lasse Benninga Jovan Gligorevic"
-        },
-        "actor_navigation_url": null,
-        "entity_embedded_object": null,
-        "navigation_url": null,
-        "template": "CONTENT_A"
-    }
+  {
+    "author": "Ts. Haniff Nasir",
+    "bio": "Industrial Analyst | Process & Analytics Specialists | Championing Data Literacy, Production Optimization, and BI for Students & Professionals | Excel, SQL, Power BI, Chemicals, Engineering, and Operations",
+    "author_url": "https://www.linkedin.com/in/ACoAABHY63ABaFn-ABa_BC9DsggXuk5_Zaq-ufY?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABHY63ABaFn-ABa_BC9DsggXuk5_Zaq-ufY",
+    "text": "I'll embark a new journey starting next week - Analytics Engineering. \nGuess what? I've discovered a book that's truly intriguing and valuable. \n\nFundamentals of Analytics Engineering by Packt offers a comprehensive guide through the analytics engineering landscape, from basic principles to advanced techniques in data ingestion, warehousing, and modeling.\n\nAuthored by seven industry professionals, the book equips readers with the necessary tools to convert raw data into meaningful insights, addressing key areas like data pipelines, cloud analytics, data governance, and the art of collaborative coding.\n\nWho should read this book?\nData engineer\nData analyst\nDeveloper\nAnalytics engineer\nData Professionals\n\nTitle: Fundamentals of Analytics Engineering\nAuthors: Dumky de Wilde, Fanny Kassapian, Jovan Gligorevic, Juan Manuel Perafan, Lasse Benninga, Ricardo Angel Granados Lopez, Tais Laurindo Pereira\nLink: https://packt.link/aQ9uz\n\nThanks to Nivedita Singh for the opportunity to review such excellent books pertinent to our industry.\n\nI'm looking forward to learn and explore further in the realm of data analytics and visualization.\n\nP.S.: What book would you recommend for my upcoming reading and review? Share your suggestions in the comments section below.\n\nP.S.S: Full book review coming soon\n\n#HNShare #Analytics #Engineer #DataAnalyst",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7201220720968818689%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Dumky de Wilde",
+    "bio": "Analytics Engineer | Author | Speaker",
+    "author_url": "https://www.linkedin.com/in/ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+    "text": "We wrote the book I wish Id had five years ago and last week I was able to present it at our 10th analytics engineering meetup. There is a figure-it-out-yourself mentality in the data & analytics field that I enjoy tremendously, but sometimes it is nice to have a shortcut. The Fundamentals of Analytics Engineering (https://amzn.to/43KxIik) is one of those shortcuts. Each one of the amazing authors brings their own perspective and experience to get you up to speed on data warehouses, data modelling, data ingestion, observability, stakeholder management and navigating the tech landscape. Thanks for the journey Juan Manuel Perafan, Ricardo Angel Granados Lopez Fanny Kassapian Tais Laurindo Pereira Lasse Benninga Jovan Gligorevic",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7187429511179698176%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Johan van de Werken",
+    "bio": "Freelance Data Analyst / Analytics Engineer | GA4BigQuery.com | GA4Dataform.com",
+    "author_url": "https://www.linkedin.com/in/ACoAAAF9_JkBWT-Mjy-OTuvPf2IVFql5mJsFcNU?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAF9_JkBWT-Mjy-OTuvPf2IVFql5mJsFcNU",
+    "text": "I recently had the pleasure of reading 'Fundamentals of Analytics Engineering' by Dumky de Wilde, Juan Manuel Perafan, Fanny Kassapian, Ricardo Angel Granados Lopez et al.\n\nThis book has been an eye-opener, affirming that I can now confidently call myself an analytics engineer, a role I've been effectively fulfilling for several years already without realizing it.\n\nIf you work in the data field, especially at the intersection of these roles, this book is written for you: https://lnkd.in/eKAVgMUZ",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7212005148246577152%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Tais Laurindo Pereira",
+    "bio": "Analytics Engineer | Data Analyst | Consultant",
+    "author_url": "https://www.linkedin.com/in/ACoAABY5VL4Bs8A9dDEmsgvsCURHBJ0j8dfpDuQ?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABY5VL4Bs8A9dDEmsgvsCURHBJ0j8dfpDuQ",
+    "text": " Book alert  \n\nAfter one year of intense work next to our full-time consultant jobs, I'm happy to announce that our book Fundamentals of Analytics Engineering is out!  \n\nOur idea for writing was to guide those starting in the field in a tool-agnostic way. Analytics Engineering is quite a new area, and there needs to be more literature about it. This book aims to provide a set of best practices to contribute to a solid knowledge base for people working with it. \n\nI want to thank all the co-authors - Fanny Kassapian, Juan Manuel Perafan, Lasse Benninga, Dumky de Wilde, Ricardo Angel Granados Lopez, Jovan Gligorevic (yes, we are many) for your awesome work. Also I'd like to thank my Xebia colleagues - Juan Venegas for the additional editing and Guillermo Sanchez Dionis and Padraic Slattery, Ph.D. for the additional technical review.\n\nLastly, I want to thank Xebia for supporting us during this process, and Packt for trusting us with the task. \n\nWhen I left my home country back in 2019 I'd never have imagined to achieve something like this. Crazy where life can take you sometimes!",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7176870839349325826%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Dumky de Wilde",
+    "bio": "Analytics Engineer | Author | Speaker",
+    "author_url": "https://www.linkedin.com/in/ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+    "text": "Ever since I first started out working with data over 10 years ago Ive had two questions that haunted me.\n- Why does everyone seem to mean something different with the words data or analytics?\n- Why do we need to move and copy data if it is already there?\n\nDo you recognize this? \n- You mention 'analytics' and someone starts talking about cookies while others will refer to their sales dashboard in Excel \n- 'data platform' can mean we've connected every source individually to our dashboard or we run a Terraformed, distributed data lakehouse for streaming and batch as a single source of truth\n- Google 'SQL Tutorial' and you find how to set up your Postgres database for storing transactional data instead of how to aggregate and combine web sessions and sales data\n- GTM either means go to market or Google Tag Manager, depending on your audience\n\nI still do not have a clear answer to both questions, but I find that understanding other teams, roles and their responsibilities and vocabulary helps tremendously to avoid confusion. If you ever find yourself duplicating data again, ask yourself if it facilitates:\n- a different usage pattern\n- a different set of permissions\n- cost efficiency\n\nThese types of questions to me are what analytics engineering is trying to solve. This is also why I'm soon publishing a book on the fundamentals of analytics engineering with Fanny Kassapian, Juan Manuel Perafan, Ricardo Angel Granados Lopez, Tais Laurindo Pereira, Lasse Benninga, Jovan Gligorevic",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7170409401781067776%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Connor Dickson",
+    "bio": "Analytics Engineer | LinkedIn [In]structor",
+    "author_url": "https://www.linkedin.com/in/ACoAACWbRzIBZj6gEADzLgm8mK19c1zm3db4ulQ?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACWbRzIBZj6gEADzLgm8mK19c1zm3db4ulQ",
+    "text": "The winners have been chosen! \n\nPackt and I did a giveaway with five copies of Fundamentals of Analytics Engineering. We had over 80 submissions, thanks for all the interest folks! \n\nI took all the entries, put them in an excel file, and used python to randomly select five winners. See the screenshot for a closer look at the selection process. \n\nThe winners of the physical copies of Fundamentals of Analytics Engineering are:\n\nMd Rakib Hasan\n\nMatias Vizcaino\n\nThe winners of the ebook version are: \n\nJoshua Kofile\n\nErfan Hesami\n\nTristan Baylock, CPA\n\nI'll send each of the winners a DM so they can get their copies of the book. \n\nThanks to everyone for participating. If you didn't win, you can always pick up a copy on Amazon, or on Packt's website. \n\n#datawithdickson",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7204567491488931840%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Ricardo Angel Granados Lopez",
+    "bio": "Analytics Engineer at Xebia Data",
+    "author_url": "https://www.linkedin.com/in/ACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8",
+    "text": " Exciting news   \n\nLook Mom I am on the cover! \nJokes aside, I'm thrilled to announce the launch of our book,  Fundamentals of Analytics Engineering! [ https://amzn.to/3TM3I2f ] After countless hours of dedication and juggling our full-time consulting roles, we've crafted a resource that we believe will benefit both newcomers and experienced professionals in the ever-evolving field of analytics engineering.   \n  \nOur goal in writing this book was to provide a tool-agnostic, step-by-step guide that simplifies complex concepts and outlines best practices to help build a robust foundation in analytics engineering.   \n  \nA massive shoutout to my incredible co-authors - Fanny Kassapian , Juan Manuel Perafan, Lasse Benninga, Dumky de Wilde, Tais Laurindo Pereira, and Jovan Gligorevic - your dedication and expertise have truly made this book a reality!  Special thanks to Juan Venegas for editing support, and Guillermo Sanchez Dionis and Padraic Slattery, Ph.D. for their valuable technical reviews.   \n  \nHuge appreciation goes out to Xebia for their unwavering support throughout this journey, specially to Bram Ochsendorf and Giovanni Lanzani, and Packt for entrusting us with this project.   \n \nIf you're looking to sharpen your analytics engineering skills or dive into this exciting field, our book is ready to guide you on your journey.   \n  \n#analyticsengineering #newbooklaunch #datascience #accomplishments #teamworkmakesthedreamwork",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7178746266992959488%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Ricardo Angel Granados Lopez",
+    "bio": "Analytics Engineer at Xebia Data",
+    "author_url": "https://www.linkedin.com/in/ACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8",
+    "text": "Come and share with us! https://bit.ly/49mDsjM \n\nRecently I had the great experience to launch a new book Fundamentals of Analytics Engineering ( https://amzn.to/3TM3I2f ), I learnt a lot from my co-authors and colleagues while working on the research and edition of the book.\n\nIn this area of knowledge that is quickly evolving, one of the best ways to share and gain knowledge is through meeting people that have the same goals and struggles than us as Analytics Engineers.\n\nCome join us in Amsterdam for the next edition of the Analyticis Engineering meetup on April 10th, we will have great speakers, interesting talks and free pizza!\nIf you have any question, please let me know.\n\nSee you there!\n\nSchedule:\n17:30   Pizza.\n18:15   GitHub: Learn fast, develop faster & keep it secure\n18:45   Break.\n19:00   Data Fortification: Safeguarding sensitive insights in data development\n19:30   Fundamentals of Analytics Engineering: An Introduction to Building End-to-End Analytics Solutions\n19:40 -  Drinks",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7180888545539018753%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Jovan Gligorevic",
+    "bio": "Analytics Engineer | Helping Bitpanda win in Europe",
+    "author_url": "https://www.linkedin.com/in/ACoAABY9mMsByzhtnqlz1dFqPBB_hEcGXHKf0l4?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABY9mMsByzhtnqlz1dFqPBB_hEcGXHKf0l4",
+    "text": "I am excited to announce that our book Fundamentals of Analytics Engineering is out! After a year of intense work next to our regular day-to-day I am happy with the result \n\nThe book will soon be out in paperback and as a Kindle eBook very soon! Will keep you posted! \n\nI am confident that our book will contribute to a better understanding of the relatively new and growing field of Analytics Engineering. It reads like a beginner-friendly guide to get started within the field, explaining the underlying principles behind analytics engineering and providing best practices and examples on building end-to-end analytics solutions in the cloud.\n\nAre you interested in data warehousing, dbt, data modelling, orchestration, development, deployment and analytics? Then give this book a read!   \n\nI want to sincerely thank all the co-authors - Fanny Kassapian, Juan Manuel Perafan, Lasse Benninga, Dumky de Wilde, Ricardo Angel Granados Lopez and Tais Laurindo Pereira, for your awesome work. I'd like to thank my former Xebia colleagues - Juan Venegas for your dedication in helping with editing and Guillermo Sanchez Dionis and Padraic Slattery, Ph.D. for the technical review.\n\nHappy reading!\n\n#packt #xebia #analyticsengineering #dbt #data #datamodelling ",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7177962504323510272%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Juan Manuel Perafan",
+    "bio": "Co-Author Fundamentals of Analytics Engineering | dbt Community Award Recipient",
+    "author_url": "https://www.linkedin.com/in/ACoAABlbyDkBtUpAetdGzyKzZrJV5lVa8RzSUSc?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABlbyDkBtUpAetdGzyKzZrJV5lVa8RzSUSc",
+    "text": "In case you missed it, Select Star is giving away a couple of copies of Fundamentals of Analytics Engineering. \n\nYou only need to write an Analytics Engineering tip in the comments.",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7195740072489463808%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Connor Dickson",
+    "bio": "Analytics Engineer | LinkedIn [In]structor",
+    "author_url": "https://www.linkedin.com/in/ACoAACWbRzIBZj6gEADzLgm8mK19c1zm3db4ulQ?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACWbRzIBZj6gEADzLgm8mK19c1zm3db4ulQ",
+    "text": "The concept of analytics engineering is comparatively new. \n\nTaking data engineering tasks and mashing it with the responsibilities of data analysts is somewhat novel. \n\nThats why Im excited that Packt wrote a book on the Fundamentals of Analytics Engineering and sent me a copy! \n\nTheir book touches on topics such as:\n\n Building Data Pipelines \n\n Data Strategy \n\nBuilding a Data Platform \n\nIf you want to learn more about analytics engineering, youre in luck, Packt is giving away five copies (2 physical, 3 ebooks) of Fundamentals of Analytics Engineering! \n\nIf you want a chance to win a copy, just comment on this post and Ill pick the winners with a RNG.  \n\nThe winners will be tagged in a future post, and receive a message from me. Dont fall for any scams. Only my verfied account will be messaging you about the winners. \n\n#datawithdickson #analyticsengineering",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7203738515598114816%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Juan Manuel Perafan",
+    "bio": "Co-Author Fundamentals of Analytics Engineering | dbt Community Award Recipient",
+    "author_url": "https://www.linkedin.com/in/ACoAABlbyDkBtUpAetdGzyKzZrJV5lVa8RzSUSc?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABlbyDkBtUpAetdGzyKzZrJV5lVa8RzSUSc",
+    "text": "It is obvious in hindsight, but it never occurred to me that writing a book also means writing a preface, foreword, preface, summary, product description, Amazon page, and a prologue. \n\nI don't know if I have read any of those pages before. Not even for my favorite books. But after writing this prologue, I will probably start paying more attention.\n\nIf this anecdote resonates with you, you might want to check out Fundamentals of Analytics Engineering. Get your copy today at most bookstores or directly from Packt: https://lnkd.in/eRZYJ7pk\n\n#analyticsengineering #packt #xebia ",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7189545477246263296%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Juan Manuel Perafan",
+    "bio": "Co-Author Fundamentals of Analytics Engineering | dbt Community Award Recipient",
+    "author_url": "https://www.linkedin.com/in/ACoAABlbyDkBtUpAetdGzyKzZrJV5lVa8RzSUSc?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABlbyDkBtUpAetdGzyKzZrJV5lVa8RzSUSc",
+    "text": "I recently discovered that our book Fundamentals of Analytics Engineering is partially available for free on Google Books! Perfect for those who want to try before you buy. \n\nCheck it out here: https://lnkd.in/ePgWqaYQ \n\nPackt",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7208742011527401472%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Dumky de Wilde",
+    "bio": "Analytics Engineer | Author | Speaker",
+    "author_url": "https://www.linkedin.com/in/ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+    "text": "Whether you are an analyst, data engineer or an AI bot, you likely care about the quality and availability of the data you work with. This afternoon I'll be talking about exactly that in the context of our recently released book The Fundamentals of Analytics Engineering and how it can help you navigate the muddy waters of data and analytics in organisations. The e-book is out now, and you can pre-order the good ol' paper version.",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7179433074068201473%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  },
+  {
+    "author": "Giovanni Lanzani",
+    "bio": "Managing Director Xebia Data",
+    "author_url": "https://www.linkedin.com/in/ACoAAAUTEAEB4J91Pu4MgvpsUOxuikpGSEG26a4?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAUTEAEB4J91Pu4MgvpsUOxuikpGSEG26a4",
+    "text": "If you read my previous post (https://lnkd.in/ey2A3Zrs) about the amount of knowledge-sharing we have done, you might be left thinking that...it's a lot!\n\nHowever, I didn't tell the whole story because LinkedIn limits the number of characters a post can have.\n\nSo here's a follow-up: in Q1, besides everything else, we also published a book with Packt: \n\nFundamentals of Analytics Engineering: An introduction to building end-to-end analytics solutions\n\nInterested? Read more! \n\nhttps://lnkd.in/e9XYUPQM",
+    "post_url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7193545602079617025%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4"
+  }
 ]

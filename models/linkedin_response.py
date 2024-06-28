@@ -1,57 +1,53 @@
 from typing import Optional, List
-from pydantic import BaseModel, HttpUrl, Extra
+from pydantic import BaseModel, HttpUrl, Field
 
 
 class TextContent(BaseModel):
-    text: Optional[str] = None
+    text: Optional[str] = Field(None, alias="text")
 
     class Config:
         extra = "ignore"
 
 
 class SummaryContent(BaseModel):
-    text_direction: Optional[str] = None
-    text: Optional[str] = None
+    text_direction: Optional[str] = Field(None, alias="textDirection")
+    text: Optional[str] = Field(None, alias="text")
 
     class Config:
         extra = "ignore"
 
 
 class EntityEmbeddedObject(BaseModel):
-    title: Optional[TextContent] = None
+    title: Optional[TextContent] = Field(None, alias="title")
 
     class Config:
         extra = "ignore"
 
 
-class LinkedInPost(BaseModel):
-    title: Optional[TextContent] = None
-    primary_subtitle: Optional[TextContent] = None
-    summary: Optional[SummaryContent] = None
-    actor_navigation_url: Optional[HttpUrl] = None
-    entity_embedded_object: Optional[EntityEmbeddedObject] = None
-    navigation_url: Optional[HttpUrl] = None
-    template: Optional[str] = None
+class IncludedElement(BaseModel):
+    title: Optional[TextContent] = Field(None, alias="title")
+    primary_subtitle: Optional[TextContent] = Field(None, alias="primarySubtitle")
+    summary: Optional[SummaryContent] = Field(None, alias="summary")
+    actor_navigation_url: Optional[HttpUrl] = Field(None, alias="actorNavigationUrl")
+    entity_embedded_object: Optional[EntityEmbeddedObject] = Field(
+        None, alias="entityEmbeddedObject"
+    )
+    navigation_url: Optional[HttpUrl] = Field(None, alias="navigationUrl")
+    template: Optional[str] = None  # Hypothetical attribute for demonstration
 
     class Config:
         extra = "ignore"
 
 
 class LinkedInResponse(BaseModel):
-    included: List[LinkedInPost] = []
+    included: List[IncludedElement]
+
+    def __init__(__pydantic_self__, **data):
+        super().__init__(**data)
+        # Filter out LinkedInPost instances without a template value
+        __pydantic_self__.included = [
+            post for post in __pydantic_self__.included if post.template is not None
+        ]
 
     class Config:
         extra = "ignore"
-
-    def __getattribute__(self, item):
-        if item == "included":
-            # Filter the included list to only return items with a 'template' attribute
-            filtered_included = [
-                post
-                for post in super().__getattribute__(item)
-                if post.template is not None
-            ]
-            return filtered_included
-        else:
-            # For any other attribute, return it as usual
-            return super().__getattribute__(item)
