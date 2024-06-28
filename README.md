@@ -1,0 +1,1 @@
+datamodel-codegen --input resp.json --input-file-type json --output models.py

@@ -1,0 +1,2920 @@
+{
+    "data": {
+        "data": {
+            "searchDashClustersByAll": {
+                "metadata": {
+                    "entityResultAttributes": null,
+                    "totalResultCount": 487,
+                    "searchAlert": null,
+                    "secondaryFilterCluster": null,
+                    "$recipeTypes": [
+                        "com.linkedin.dfce49e2c6bb412fb4161cbbc7190d0d"
+                    ],
+                    "lazyRightRail": null,
+                    "queryType": "EXPLORE",
+                    "$type": "com.linkedin.voyager.dash.search.SearchClusterCollectionMetadata",
+                    "primaryResultType": "CONTENT",
+                    "paginationToken": null,
+                    "primaryFilterCluster": {
+                        "secondaryFilterGroups": [
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 1,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Alleen mij tonen",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Personen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "PEOPLE",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Vacatures",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "JOBS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Bijdragen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "CONTENT",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": true,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Bedrijven",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "COMPANIES",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Producten",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "PRODUCTS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Groepen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "GROUPS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Services",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "SERVICES",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Evenementen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "EVENTS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Cursussen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "LEARNING",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Opleidingen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "SCHOOLS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "highlighted": true,
+                                        "filterClickControlName": null,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "resultType",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "primaryFilterValues": [],
+                                        "filterApplyControlName": null,
+                                        "renderType": "NAVIGATION"
+                                    }
+                                ],
+                                "title": "Alleen mij tonen",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Sorteren op",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": true,
+                                                "tooltipText": null,
+                                                "displayName": "Relevantst",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "relevance",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": true,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Nieuwste",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "date_posted",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "filterClickControlName": null,
+                                        "highlighted": false,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "sortBy",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "SINGLE_SELECT"
+                                    }
+                                ],
+                                "title": "Sorteren op",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Afgelopen 24 uur",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-24h",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Afgelopen week",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-week",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Afgelopen maand",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-month",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "past-2y",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-2y",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "past-3y",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-3y",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "past-year",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-year",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Plaatsingsdatum",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "datePosted",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "SINGLE_SELECT"
+                                    }
+                                ],
+                                "title": "Plaatsingsdatum",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Video’s",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "videos",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Afbeeldingen",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "photos",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Vacatures",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "jobs",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Livevideo’s",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "liveVideos",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Artikelen",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "articles",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Documenten",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "documents",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Gezamenlijke artikelen",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "collaborativeArticles",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "news",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "news",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "newsletters",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "newsletters",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Type content",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "contentType",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "SINGLE_SELECT"
+                                    }
+                                ],
+                                "title": "Type content",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Van lid",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "secondaryFilterValues": [],
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "fromMember",
+                                        "typeaheadType": "PEOPLE",
+                                        "typeaheadHint": "Naam van persoon toevoegen",
+                                        "startIcon": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "MULTI_SELECT"
+                                    }
+                                ],
+                                "title": "Van lid",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Van bedrijf",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "secondaryFilterValues": [],
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "fromOrganization",
+                                        "typeaheadType": "COMPANY",
+                                        "typeaheadHint": "Naam van bedrijf toevoegen",
+                                        "startIcon": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "MULTI_SELECT"
+                                    }
+                                ],
+                                "title": "Van bedrijf",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Eerstegraads connecties",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "first",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Ik",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "me",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Geplaatst door",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "postedBy",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "MULTI_SELECT"
+                                    }
+                                ],
+                                "title": "Geplaatst door",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Lid vermelden",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "secondaryFilterValues": [],
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "mentionsMember",
+                                        "typeaheadType": "PEOPLE",
+                                        "typeaheadHint": "Naam van persoon toevoegen",
+                                        "startIcon": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "MULTI_SELECT"
+                                    }
+                                ],
+                                "title": "Lid vermelden",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Bedrijf vermelden",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "secondaryFilterValues": [],
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "mentionsOrganization",
+                                        "typeaheadType": "COMPANY",
+                                        "typeaheadHint": "Naam van bedrijf toevoegen",
+                                        "startIcon": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "MULTI_SELECT"
+                                    }
+                                ],
+                                "title": "Bedrijf vermelden",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Branche van de auteur",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "secondaryFilterValues": [],
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "authorIndustry",
+                                        "typeaheadType": "INDUSTRY",
+                                        "typeaheadHint": "Branche toevoegen",
+                                        "startIcon": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "MULTI_SELECT"
+                                    }
+                                ],
+                                "title": "Branche van de auteur",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Bedrijf van de auteur",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "secondaryFilterValues": [],
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "authorCompany",
+                                        "typeaheadType": "COMPANY",
+                                        "typeaheadHint": "Bedrijf toevoegen",
+                                        "startIcon": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "MULTI_SELECT"
+                                    }
+                                ],
+                                "title": "Bedrijf van de auteur",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Titel",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "secondaryFilterValues": [],
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "authorJobTitle",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "FREE_TEXT"
+                                    }
+                                ],
+                                "title": "Trefwoorden voor auteur",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            }
+                        ],
+                        "primaryFilterGroups": [
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 1,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Laat zien hoe",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Alles",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "ALL",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Personen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "PEOPLE",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Vacatures",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "JOBS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Bijdragen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "CONTENT",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": true,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Bedrijven",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "COMPANIES",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Producten",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "PRODUCTS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Groepen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "GROUPS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Services",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "SERVICES",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Evenementen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "EVENTS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Cursussen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "LEARNING",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Opleidingen",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "SCHOOLS",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "highlighted": true,
+                                        "filterClickControlName": null,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "resultType",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "primaryFilterValues": [],
+                                        "filterApplyControlName": null,
+                                        "renderType": "NAVIGATION"
+                                    }
+                                ],
+                                "title": "Laat zien hoe",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Sorteren op",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": true,
+                                                "tooltipText": null,
+                                                "displayName": "Relevantst",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "relevance",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": true,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Nieuwste",
+                                                "count": null,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "date_posted",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "filterClickControlName": null,
+                                        "highlighted": false,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "sortBy",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "SINGLE_SELECT"
+                                    }
+                                ],
+                                "title": "Sorteren op",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Afgelopen 24 uur",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-24h",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Afgelopen week",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-week",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Afgelopen maand",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-month",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "past-2y",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-2y",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "past-3y",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-3y",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "past-year",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "past-year",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Plaatsingsdatum",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "datePosted",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "SINGLE_SELECT"
+                                    }
+                                ],
+                                "title": "Plaatsingsdatum",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "secondaryFilterValues": [
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Video’s",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "videos",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Afbeeldingen",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "photos",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Vacatures",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "jobs",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Livevideo’s",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "liveVideos",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Artikelen",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "articles",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Documenten",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "documents",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "Gezamenlijke artikelen",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "collaborativeArticles",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "news",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "news",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            },
+                                            {
+                                                "image": null,
+                                                "default": false,
+                                                "tooltipText": null,
+                                                "displayName": "newsletters",
+                                                "count": 0,
+                                                "icon": null,
+                                                "disabled": false,
+                                                "value": "newsletters",
+                                                "$recipeTypes": [
+                                                    "com.linkedin.83d0ac7bcab35bfe2d9bcd29421a7f1f"
+                                                ],
+                                                "selected": false,
+                                                "$type": "com.linkedin.voyager.dash.search.SearchFilterValue"
+                                            }
+                                        ],
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Type content",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "contentType",
+                                        "startIcon": null,
+                                        "typeaheadHint": null,
+                                        "typeaheadType": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "SINGLE_SELECT"
+                                    }
+                                ],
+                                "title": "Type content",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            },
+                            {
+                                "filters": [
+                                    {
+                                        "viewImpressionEventName": null,
+                                        "appliedCount": 0,
+                                        "displayName": {
+                                            "textDirection": "USER_LOCALE",
+                                            "text": "Van lid",
+                                            "attributesV2": [],
+                                            "accessibilityTextAttributesV2": [],
+                                            "accessibilityText": null,
+                                            "$recipeTypes": [
+                                                "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                                            ],
+                                            "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                                        },
+                                        "highlighted": false,
+                                        "filterClickControlName": null,
+                                        "secondaryFilterValues": [],
+                                        "typeaheadFilterQuery": null,
+                                        "parameterName": "fromMember",
+                                        "typeaheadType": "PEOPLE",
+                                        "typeaheadHint": "Naam van persoon toevoegen",
+                                        "startIcon": null,
+                                        "title": null,
+                                        "$recipeTypes": [
+                                            "com.linkedin.0134fedeb876326e67efb0b562630cc0"
+                                        ],
+                                        "$type": "com.linkedin.voyager.dash.search.SearchFilterViewModel",
+                                        "flatten": false,
+                                        "searchActionType": null,
+                                        "filterApplyControlName": null,
+                                        "primaryFilterValues": [],
+                                        "renderType": "MULTI_SELECT"
+                                    }
+                                ],
+                                "title": "Van lid",
+                                "$recipeTypes": [
+                                    "com.linkedin.6caaeab285566e3922584bf512297d62"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchFilterGroupViewModel"
+                            }
+                        ],
+                        "appliedCount": 0,
+                        "icon": null,
+                        "subsequentRefresh": true,
+                        "primaryFilters": [],
+                        "title": "Filters",
+                        "secondaryFilters": [],
+                        "$recipeTypes": [
+                            "com.linkedin.77f24fd65949d0f1cc3ca16da60fde58"
+                        ],
+                        "showAdvanceFilter": true,
+                        "$type": "com.linkedin.voyager.dash.search.SearchFilterCluster"
+                    },
+                    "blockedQuery": false,
+                    "entityActionButtonStyle": null,
+                    "searchId": "384ecb18-b76a-4915-b5af-cae0dc4e9eec",
+                    "filterAppliedCount": 0,
+                    "clusterTitleFontSize": null,
+                    "simpleInsightAttributes": null,
+                    "knowledgeCardRightRail": null
+                },
+                "paging": {
+                    "count": 3,
+                    "start": 3,
+                    "total": 487,
+                    "$recipeTypes": [
+                        "com.linkedin.81b214c2cdd4f02cdb7d827958d2f3a1"
+                    ],
+                    "$type": "com.linkedin.restli.common.CollectionMetadata"
+                },
+                "$recipeTypes": [
+                    "com.linkedin.5f1d22f924ecb6a031ee124b8b767900"
+                ],
+                "elements": [
+                    {
+                        "image": null,
+                        "quickFilterActions": [],
+                        "clusterRenderType": "LIST",
+                        "dismissable": false,
+                        "totalResultCount": null,
+                        "controlName": null,
+                        "description": null,
+                        "title": null,
+                        "$recipeTypes": [
+                            "com.linkedin.5c853aba2154c55483e72bf6cdfaaf3e"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.search.SearchClusterViewModel",
+                        "actionTypeName": null,
+                        "navigationText": null,
+                        "feature": null,
+                        "navigationCardAction": null,
+                        "position": 4,
+                        "items": [
+                            {
+                                "item": {
+                                    "cluster": null,
+                                    "bannerCard": null,
+                                    "searchAlert": null,
+                                    "upsellSlot": null,
+                                    "searchSuggestionCard": null,
+                                    "coachPromptCluster": null,
+                                    "feedbackCard": null,
+                                    "knowledgeCardV2": null,
+                                    "keywordsSuggestionCard": null,
+                                    "queryClarificationCard": null,
+                                    "topicalQuestionCard": null,
+                                    "*entityResult": "urn:li:fsd_entityResultViewModel:(urn:li:activity:7179433074068201473,SEARCH_SRP,DEFAULT)",
+                                    "simpleTextV2": null,
+                                    "promoCard": null,
+                                    "searchFeedUpdate": null,
+                                    "searchQuestionAndAnswerCard": null,
+                                    "centeredText": null,
+                                    "simpleImage": null
+                                },
+                                "position": 1,
+                                "$recipeTypes": [
+                                    "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchItem"
+                            },
+                            {
+                                "item": {
+                                    "cluster": null,
+                                    "bannerCard": null,
+                                    "searchAlert": null,
+                                    "upsellSlot": null,
+                                    "searchSuggestionCard": null,
+                                    "coachPromptCluster": null,
+                                    "feedbackCard": null,
+                                    "knowledgeCardV2": null,
+                                    "keywordsSuggestionCard": null,
+                                    "queryClarificationCard": null,
+                                    "topicalQuestionCard": null,
+                                    "*entityResult": "urn:li:fsd_entityResultViewModel:(urn:li:activity:7178746266992959488,SEARCH_SRP,DEFAULT)",
+                                    "simpleTextV2": null,
+                                    "promoCard": null,
+                                    "searchFeedUpdate": null,
+                                    "searchQuestionAndAnswerCard": null,
+                                    "centeredText": null,
+                                    "simpleImage": null
+                                },
+                                "position": 2,
+                                "$recipeTypes": [
+                                    "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchItem"
+                            },
+                            {
+                                "item": {
+                                    "cluster": null,
+                                    "bannerCard": null,
+                                    "searchAlert": null,
+                                    "upsellSlot": null,
+                                    "searchSuggestionCard": null,
+                                    "coachPromptCluster": null,
+                                    "feedbackCard": null,
+                                    "knowledgeCardV2": null,
+                                    "keywordsSuggestionCard": null,
+                                    "queryClarificationCard": null,
+                                    "topicalQuestionCard": null,
+                                    "*entityResult": "urn:li:fsd_entityResultViewModel:(urn:li:activity:7201220720968818689,SEARCH_SRP,DEFAULT)",
+                                    "simpleTextV2": null,
+                                    "promoCard": null,
+                                    "searchFeedUpdate": null,
+                                    "searchQuestionAndAnswerCard": null,
+                                    "centeredText": null,
+                                    "simpleImage": null
+                                },
+                                "position": 3,
+                                "$recipeTypes": [
+                                    "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
+                                ],
+                                "$type": "com.linkedin.voyager.dash.search.SearchItem"
+                            }
+                        ],
+                        "results": [],
+                        "trackingId":"?ã1ätçL×ªj¨HÕ"
+                    }
+                ],
+                "$type": "com.linkedin.restli.common.CollectionResponse"
+            },
+            "$recipeTypes": [
+                "com.linkedin.c293aa010e51bae32433eeb13b1682fa"
+            ],
+            "$type": "com.linkedin.c293aa010e51bae32433eeb13b1682fa"
+        }
+    },
+    "included": [
+        {
+            "profilePicture": {
+                "frameType": null,
+                "$recipeTypes": [
+                    "com.linkedin.ab57de991a452be4a5e752f1671b1e62"
+                ],
+                "$type": "com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture"
+            },
+            "entityUrn": "urn:li:fsd_profile:ACoAABHY63ABaFn-ABa_BC9DsggXuk5_Zaq-ufY",
+            "$recipeTypes": [
+                "com.linkedin.e0372afc4a18480b00ca7e4906904fd7"
+            ],
+            "$type": "com.linkedin.voyager.dash.identity.profile.Profile"
+        },
+        {
+            "profilePicture": {
+                "frameType": null,
+                "$recipeTypes": [
+                    "com.linkedin.ab57de991a452be4a5e752f1671b1e62"
+                ],
+                "$type": "com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture"
+            },
+            "entityUrn": "urn:li:fsd_profile:ACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8",
+            "$recipeTypes": [
+                "com.linkedin.e0372afc4a18480b00ca7e4906904fd7"
+            ],
+            "$type": "com.linkedin.voyager.dash.identity.profile.Profile"
+        },
+        {
+            "profilePicture": {
+                "frameType": null,
+                "$recipeTypes": [
+                    "com.linkedin.ab57de991a452be4a5e752f1671b1e62"
+                ],
+                "$type": "com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture"
+            },
+            "entityUrn": "urn:li:fsd_profile:ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+            "$recipeTypes": [
+                "com.linkedin.e0372afc4a18480b00ca7e4906904fd7"
+            ],
+            "$type": "com.linkedin.voyager.dash.identity.profile.Profile"
+        },
+        {
+            "template": "CONTENT_A",
+            "actorNavigationContext": {
+                "openExternally": false,
+                "$recipeTypes": [
+                    "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                ],
+                "url": "https://www.linkedin.com/in/ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+                "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+            },
+            "bserpEntityNavigationalUrl": null,
+            "trackingUrn": "urn:li:activity:7179433074068201473",
+            "controlName": null,
+            "interstitialComponent": null,
+            "primaryActions": [],
+            "entityCustomTrackingInfo": null,
+            "badgeData": null,
+            "title": {
+                "textDirection": "FIRST_STRONG",
+                "text": "Dumky de Wilde",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": "Profiel van Dumky de Wilde weergeven",
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "overflowActions": [],
+            "*lazyLoadedActions": "urn:li:fsd_lazyLoadedActions:(urn:li:activity:7179433074068201473,CONTENT,SEARCH_SRP)",
+            "searchActionType": null,
+            "actorInsights": [],
+            "insightsResolutionResults": [
+                {
+                    "jobPostingInsight": null,
+                    "relationshipsInsight": null,
+                    "serviceProviderRatingInsight": null,
+                    "simpleInsight": null,
+                    "jobPostingFooterInsight": null,
+                    "socialActivityCountsInsight": null,
+                    "labelsInsight": null,
+                    "premiumCustomCtaInsight": null
+                }
+            ],
+            "badgeIcon": null,
+            "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:activity:7179433074068201473,SEARCH_SRP,DEFAULT)",
+            "showAdditionalCluster": false,
+            "ringStatus": null,
+            "primarySubtitle": {
+                "textDirection": "USER_LOCALE",
+                "text": "Analytics Engineer | Author | Speaker",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "badgeText": {
+                "textDirection": "USER_LOCALE",
+                "text": "• 1e",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "trackingId": "c2UDNhR4ThGWkY3sfMKaEA==",
+            "summary": {
+                "textDirection": "USER_LOCALE",
+                "text": "Whether you are an analyst, data engineer or an AI bot, you likely care about the quality and availability of the data you work with. This afternoon I'll be talking about exactly that in the context of our recently released book The Fundamentals of Analytics Engineering and how it can help you navigate the muddy waters of data and analytics in organisations. The e-book is out now, and you can pre-order the good ol' paper version.",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "actorNavigationUrl": "https://www.linkedin.com/in/ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+            "addEntityToSearchHistory": false,
+            "image": {
+                "attributes": [
+                    {
+                        "scalingType": null,
+                        "detailData": {
+                            "profilePictureWithoutFrame": null,
+                            "profilePictureWithRingStatus": null,
+                            "companyLogo": null,
+                            "icon": null,
+                            "systemImage": null,
+                            "nonEntityGroupLogo": null,
+                            "vectorImage": null,
+                            "nonEntityProfessionalEventLogo": null,
+                            "profilePicture": null,
+                            "imageUrl": null,
+                            "professionalEventLogo": null,
+                            "nonEntityCompanyLogo": null,
+                            "nonEntitySchoolLogo": null,
+                            "groupLogo": null,
+                            "schoolLogo": null,
+                            "ghostImage": null,
+                            "nonEntityProfilePicture": {
+                                "*profile": "urn:li:fsd_profile:ACoAAARu5_YBEUsueHppc9bksd-XljRpOZT44uo",
+                                "ringStatus": null,
+                                "$recipeTypes": [
+                                    "com.linkedin.4b009c1d6ea192a94bda77fb9ace3a7d"
+                                ],
+                                "vectorImage": {
+                                    "digitalmediaAsset": null,
+                                    "attribution": null,
+                                    "c2paManifestData": null,
+                                    "$recipeTypes": [
+                                        "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9"
+                                    ],
+                                    "artifacts": [
+                                        {
+                                            "width": 100,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "https://media.licdn.com/dms/image/D4E03AQHV_z67ISTrkA/profile-displayphoto-shrink_100_100/0/1683821503728?e=1724889600&v=beta&t=ijRuGkHYE3nKjRwDFfr81PN-BFMvFEzIizABH3jhsF8",
+                                            "expiresAt": 1724889600000,
+                                            "height": 100,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        }
+                                    ],
+                                    "rootUrl": "",
+                                    "$type": "com.linkedin.common.VectorImage"
+                                },
+                                "$type": "com.linkedin.voyager.dash.common.image.NonEntityProfilePicture"
+                            }
+                        },
+                        "tintColor": null,
+                        "$recipeTypes": [
+                            "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                        ],
+                        "tapTargets": [],
+                        "displayAspectRatio": null,
+                        "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                    }
+                ],
+                "editableAccessibilityText": false,
+                "actionTarget": null,
+                "accessibilityTextAttributes": [],
+                "totalCount": null,
+                "accessibilityText": "Dumky de Wilde",
+                "$recipeTypes": [
+                    "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+            },
+            "secondarySubtitle": {
+                "textDirection": "USER_LOCALE",
+                "text": "Opnieuw geplaatst van Select Star • 3 mnd  ",
+                "attributesV2": [
+                    {
+                        "start": 42,
+                        "length": 1,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": "IC_GLOBE_16DP",
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": null,
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    }
+                ],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "entityEmbeddedObject": {
+                "summary": null,
+                "image": null,
+                "headerThumbnail": null,
+                "secondarySubtitle": null,
+                "trackingUrn": null,
+                "primaryActions": [],
+                "showPlayButton": false,
+                "title": null,
+                "$recipeTypes": [
+                    "com.linkedin.bd93318ac5710b71fba68ebb50fd5bfd"
+                ],
+                "renderStyle": "DEFAULT_CONTENT",
+                "$type": "com.linkedin.voyager.dash.search.EntityEmbeddedObject",
+                "primarySubtitle": null,
+                "headerTitle": null
+            },
+            "navigationUrl": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7179433074068201473%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4",
+            "unreadIndicatorDetails": null,
+            "$recipeTypes": [
+                "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109"
+            ],
+            "target": {
+                "updateV2Urn": "urn:li:fs_updateV2:(urn:li:activity:7179433074068201473,BLENDED_SEARCH_FEED,EMPTY,DEFAULT,false)",
+                "profile": null
+            },
+            "$type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+            "actorTrackingUrn": "urn:li:member:74377206",
+            "navigationContext": {
+                "openExternally": false,
+                "$recipeTypes": [
+                    "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                ],
+                "url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7179433074068201473%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4",
+                "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+            }
+        },
+        {
+            "template": "CONTENT_B",
+            "actorNavigationContext": {
+                "openExternally": false,
+                "$recipeTypes": [
+                    "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                ],
+                "url": "https://www.linkedin.com/in/ACoAABHY63ABaFn-ABa_BC9DsggXuk5_Zaq-ufY?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABHY63ABaFn-ABa_BC9DsggXuk5_Zaq-ufY",
+                "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+            },
+            "bserpEntityNavigationalUrl": null,
+            "trackingUrn": "urn:li:activity:7201220720968818689",
+            "controlName": null,
+            "interstitialComponent": null,
+            "primaryActions": [],
+            "entityCustomTrackingInfo": null,
+            "badgeData": null,
+            "title": {
+                "textDirection": "FIRST_STRONG",
+                "text": "Ts. Haniff Nasir",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": "Profiel van Ts. Haniff Nasir weergeven",
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "overflowActions": [],
+            "*lazyLoadedActions": "urn:li:fsd_lazyLoadedActions:(urn:li:activity:7201220720968818689,CONTENT,SEARCH_SRP)",
+            "searchActionType": null,
+            "actorInsights": [],
+            "insightsResolutionResults": [
+                {
+                    "jobPostingInsight": null,
+                    "relationshipsInsight": null,
+                    "serviceProviderRatingInsight": null,
+                    "simpleInsight": null,
+                    "jobPostingFooterInsight": null,
+                    "socialActivityCountsInsight": null,
+                    "labelsInsight": null,
+                    "premiumCustomCtaInsight": null
+                }
+            ],
+            "badgeIcon": null,
+            "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:activity:7201220720968818689,SEARCH_SRP,DEFAULT)",
+            "showAdditionalCluster": false,
+            "ringStatus": null,
+            "primarySubtitle": {
+                "textDirection": "USER_LOCALE",
+                "text": "Industrial Analyst | Process & Analytics Specialists | Championing Data Literacy, Production Optimization, and BI for Students & Professionals | Excel, SQL, Power BI, Chemicals, Engineering, and Operations",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "badgeText": {
+                "textDirection": "USER_LOCALE",
+                "text": "• 3e+",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "trackingId": "hbZ3AVwiSYO9lyi5OQ0JBQ==",
+            "summary": {
+                "textDirection": "USER_LOCALE",
+                "text": "I'll embark a new journey starting next week - Analytics Engineering. \nGuess what? I've discovered a book that's truly intriguing and valuable. \n\n\"Fundamentals of Analytics Engineering\" by Packt offers a comprehensive guide through the analytics engineering landscape, from basic principles to advanced techniques in data ingestion, warehousing, and modeling.\n\nAuthored by seven industry professionals, the book equips readers with the necessary tools to convert raw data into meaningful insights, addressing key areas like data pipelines, cloud analytics, data governance, and the art of collaborative coding.\n\nWho should read this book?\n🔸Data engineer\n🔸Data analyst\n🔸Developer\n🔸Analytics engineer\n🔸Data Professionals\n\nTitle: Fundamentals of Analytics Engineering\nAuthors: Dumky de Wilde, Fanny Kassapian, Jovan Gligorevic, Juan Manuel Perafan, Lasse Benninga, Ricardo Angel Granados López, Taís Laurindo Pereira\nLink: https://packt.link/aQ9uz\n\nThanks to Nivedita Singh for the opportunity to review such excellent books pertinent to our industry.\n\nI'm looking forward to learn and explore further in the realm of data analytics and visualization.\n\nP.S.: What book would you recommend for my upcoming reading and review? Share your suggestions in the comments section below.\n\nP.S.S: Full book review coming soon\n\n#HNShare #Analytics #Engineer #DataAnalyst",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "actorNavigationUrl": "https://www.linkedin.com/in/ACoAABHY63ABaFn-ABa_BC9DsggXuk5_Zaq-ufY?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABHY63ABaFn-ABa_BC9DsggXuk5_Zaq-ufY",
+            "addEntityToSearchHistory": false,
+            "image": {
+                "attributes": [
+                    {
+                        "scalingType": null,
+                        "detailData": {
+                            "profilePictureWithoutFrame": null,
+                            "profilePictureWithRingStatus": null,
+                            "companyLogo": null,
+                            "icon": null,
+                            "systemImage": null,
+                            "nonEntityGroupLogo": null,
+                            "vectorImage": null,
+                            "nonEntityProfessionalEventLogo": null,
+                            "profilePicture": null,
+                            "imageUrl": null,
+                            "professionalEventLogo": null,
+                            "nonEntityCompanyLogo": null,
+                            "nonEntitySchoolLogo": null,
+                            "groupLogo": null,
+                            "schoolLogo": null,
+                            "ghostImage": null,
+                            "nonEntityProfilePicture": {
+                                "*profile": "urn:li:fsd_profile:ACoAABHY63ABaFn-ABa_BC9DsggXuk5_Zaq-ufY",
+                                "ringStatus": null,
+                                "$recipeTypes": [
+                                    "com.linkedin.4b009c1d6ea192a94bda77fb9ace3a7d"
+                                ],
+                                "vectorImage": {
+                                    "digitalmediaAsset": null,
+                                    "attribution": null,
+                                    "c2paManifestData": null,
+                                    "$recipeTypes": [
+                                        "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9"
+                                    ],
+                                    "artifacts": [
+                                        {
+                                            "width": 100,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "https://media.licdn.com/dms/image/D5603AQEfEJEpN0l98Q/profile-displayphoto-shrink_100_100/0/1705316663189?e=1724889600&v=beta&t=2i95fJPPFOE27SWrLhkAwlJnOf1bnTfGDmZnB9gv9uo",
+                                            "expiresAt": 1724889600000,
+                                            "height": 100,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        }
+                                    ],
+                                    "rootUrl": "",
+                                    "$type": "com.linkedin.common.VectorImage"
+                                },
+                                "$type": "com.linkedin.voyager.dash.common.image.NonEntityProfilePicture"
+                            }
+                        },
+                        "tintColor": null,
+                        "$recipeTypes": [
+                            "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                        ],
+                        "tapTargets": [],
+                        "displayAspectRatio": null,
+                        "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                    }
+                ],
+                "editableAccessibilityText": false,
+                "actionTarget": null,
+                "accessibilityTextAttributes": [],
+                "totalCount": null,
+                "accessibilityText": "Ts. Haniff Nasir",
+                "$recipeTypes": [
+                    "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+            },
+            "secondarySubtitle": {
+                "textDirection": "USER_LOCALE",
+                "text": "1 mnd  ",
+                "attributesV2": [
+                    {
+                        "start": 6,
+                        "length": 1,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": "IC_GLOBE_16DP",
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": null,
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    }
+                ],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "entityEmbeddedObject": {
+                "summary": null,
+                "image": {
+                    "attributes": [
+                        {
+                            "scalingType": "ASPECT_FILL",
+                            "detailData": {
+                                "profilePictureWithoutFrame": null,
+                                "profilePictureWithRingStatus": null,
+                                "companyLogo": null,
+                                "icon": null,
+                                "systemImage": null,
+                                "nonEntityGroupLogo": null,
+                                "vectorImage": {
+                                    "digitalmediaAsset": null,
+                                    "attribution": null,
+                                    "c2paManifestData": null,
+                                    "$recipeTypes": [
+                                        "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9"
+                                    ],
+                                    "artifacts": [
+                                        {
+                                            "width": 600,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "800/0/1711556309520?e=1720166400&v=beta&t=GHOSRL5b7_pE1O76Y032o9DikG_WO1TFZZL667agNk4",
+                                            "expiresAt": 1720166400000,
+                                            "height": 350,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        },
+                                        {
+                                            "width": 600,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "1280_800/0/1711556309520?e=1720166400&v=beta&t=80YpbLGeV2583gn_pwEoSEKeqf6vcNgDix1AE4uoIe8",
+                                            "expiresAt": 1720166400000,
+                                            "height": 350,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        },
+                                        {
+                                            "width": 160,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "160/0/1711556309520?e=1720166400&v=beta&t=MMnawTJ_aKXAQPC-hQ6MpkdLHPrc7t50_1unrMC4dQo",
+                                            "expiresAt": 1720166400000,
+                                            "height": 93,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        },
+                                        {
+                                            "width": 480,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "480/0/1711556309520?e=1720166400&v=beta&t=Kk3XcqtD5I98gIPmbsK3N6N8E-lz38-LUkDWKqtl2kw",
+                                            "expiresAt": 1720166400000,
+                                            "height": 280,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        }
+                                    ],
+                                    "rootUrl": "https://media.licdn.com/dms/image/sync/D4D27AQE7gVcJzxeo7g/articleshare-shrink_",
+                                    "$type": "com.linkedin.common.VectorImage"
+                                },
+                                "nonEntityProfessionalEventLogo": null,
+                                "profilePicture": null,
+                                "imageUrl": null,
+                                "professionalEventLogo": null,
+                                "nonEntityCompanyLogo": null,
+                                "nonEntitySchoolLogo": null,
+                                "groupLogo": null,
+                                "schoolLogo": null,
+                                "ghostImage": null,
+                                "nonEntityProfilePicture": null
+                            },
+                            "tintColor": null,
+                            "$recipeTypes": [
+                                "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                            ],
+                            "tapTargets": [],
+                            "displayAspectRatio": null,
+                            "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                        }
+                    ],
+                    "editableAccessibilityText": false,
+                    "actionTarget": null,
+                    "accessibilityTextAttributes": [],
+                    "totalCount": null,
+                    "accessibilityText": "Voorbeeld van afbeelding",
+                    "$recipeTypes": [
+                        "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+                },
+                "headerThumbnail": null,
+                "secondarySubtitle": null,
+                "trackingUrn": null,
+                "primaryActions": [],
+                "showPlayButton": false,
+                "title": {
+                    "textDirection": "FIRST_STRONG",
+                    "text": "Fundamentals of Analytics Engineering: An introduction to building end-to-end analytics solutions",
+                    "attributesV2": [
+                        {
+                            "start": 0,
+                            "length": 12,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": null,
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": "BOLD",
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        },
+                        {
+                            "start": 13,
+                            "length": 2,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": null,
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": "BOLD",
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        },
+                        {
+                            "start": 16,
+                            "length": 9,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": null,
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": "BOLD",
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        }
+                    ],
+                    "accessibilityTextAttributesV2": [],
+                    "accessibilityText": null,
+                    "$recipeTypes": [
+                        "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                },
+                "$recipeTypes": [
+                    "com.linkedin.bd93318ac5710b71fba68ebb50fd5bfd"
+                ],
+                "renderStyle": "DEFAULT_CONTENT",
+                "$type": "com.linkedin.voyager.dash.search.EntityEmbeddedObject",
+                "primarySubtitle": {
+                    "textDirection": "USER_LOCALE",
+                    "text": "amazon.com",
+                    "attributesV2": [],
+                    "accessibilityTextAttributesV2": [],
+                    "accessibilityText": null,
+                    "$recipeTypes": [
+                        "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                },
+                "headerTitle": null
+            },
+            "navigationUrl": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7201220720968818689%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4",
+            "unreadIndicatorDetails": null,
+            "$recipeTypes": [
+                "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109"
+            ],
+            "target": {
+                "updateV2Urn": "urn:li:fs_updateV2:(urn:li:activity:7201220720968818689,BLENDED_SEARCH_FEED,EMPTY,DEFAULT,false)",
+                "profile": null
+            },
+            "$type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+            "actorTrackingUrn": "urn:li:member:299428720",
+            "navigationContext": {
+                "openExternally": false,
+                "$recipeTypes": [
+                    "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                ],
+                "url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7201220720968818689%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4",
+                "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+            }
+        },
+        {
+            "template": "CONTENT_B",
+            "actorNavigationContext": {
+                "openExternally": false,
+                "$recipeTypes": [
+                    "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                ],
+                "url": "https://www.linkedin.com/in/ACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8",
+                "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+            },
+            "bserpEntityNavigationalUrl": null,
+            "trackingUrn": "urn:li:activity:7178746266992959488",
+            "controlName": null,
+            "interstitialComponent": null,
+            "primaryActions": [],
+            "entityCustomTrackingInfo": null,
+            "badgeData": null,
+            "title": {
+                "textDirection": "FIRST_STRONG",
+                "text": "Ricardo Angel Granados López",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": "Profiel van Ricardo Angel Granados López weergeven",
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "overflowActions": [],
+            "*lazyLoadedActions": "urn:li:fsd_lazyLoadedActions:(urn:li:activity:7178746266992959488,CONTENT,SEARCH_SRP)",
+            "searchActionType": null,
+            "actorInsights": [],
+            "insightsResolutionResults": [
+                {
+                    "jobPostingInsight": null,
+                    "relationshipsInsight": null,
+                    "serviceProviderRatingInsight": null,
+                    "simpleInsight": null,
+                    "jobPostingFooterInsight": null,
+                    "socialActivityCountsInsight": null,
+                    "labelsInsight": null,
+                    "premiumCustomCtaInsight": null
+                }
+            ],
+            "badgeIcon": null,
+            "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:activity:7178746266992959488,SEARCH_SRP,DEFAULT)",
+            "showAdditionalCluster": false,
+            "ringStatus": null,
+            "primarySubtitle": {
+                "textDirection": "USER_LOCALE",
+                "text": "Analytics Engineer at Xebia Data",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "badgeText": {
+                "textDirection": "USER_LOCALE",
+                "text": "• 1e",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "trackingId": "sclx8044QiGRIcXNuPQ+Ww==",
+            "summary": {
+                "textDirection": "USER_LOCALE",
+                "text": "🎉 Exciting news 🎉  \n\nLook Mom I am on the cover! \nJokes aside, I'm thrilled to announce the launch of our book, \" Fundamentals of Analytics Engineering\"! 🚀[ https://amzn.to/3TM3I2f ] After countless hours of dedication and juggling our full-time consulting roles, we've crafted a resource that we believe will benefit both newcomers and experienced professionals in the ever-evolving field of analytics engineering. 📊  \n  \nOur goal in writing this book was to provide a tool-agnostic, step-by-step guide that simplifies complex concepts and outlines best practices to help build a robust foundation in analytics engineering. 🌐  \n  \nA massive shoutout to my incredible co-authors - Fanny Kassapian , Juan Manuel Perafan, Lasse Benninga, Dumky de Wilde, Taís Laurindo Pereira, and Jovan Gligorevic - your dedication and expertise have truly made this book a reality! 🌟 Special thanks to Juan Venegas for editing support, and Guillermo Sánchez Dionis and Pádraic Slattery, Ph.D. for their valuable technical reviews. 👏  \n  \nHuge appreciation goes out to Xebia for their unwavering support throughout this journey, specially to Bram Ochsendorf and Giovanni Lanzani, and Packt for entrusting us with this project. 🙏  \n \nIf you're looking to sharpen your analytics engineering skills or dive into this exciting field, our book is ready to guide you on your journey. 📘  \n  \n#analyticsengineering #newbooklaunch #datascience #accomplishments #teamworkmakesthedreamwork",
+                "attributesV2": [],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "actorNavigationUrl": "https://www.linkedin.com/in/ACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8",
+            "addEntityToSearchHistory": false,
+            "image": {
+                "attributes": [
+                    {
+                        "scalingType": null,
+                        "detailData": {
+                            "profilePictureWithoutFrame": null,
+                            "profilePictureWithRingStatus": null,
+                            "companyLogo": null,
+                            "icon": null,
+                            "systemImage": null,
+                            "nonEntityGroupLogo": null,
+                            "vectorImage": null,
+                            "nonEntityProfessionalEventLogo": null,
+                            "profilePicture": null,
+                            "imageUrl": null,
+                            "professionalEventLogo": null,
+                            "nonEntityCompanyLogo": null,
+                            "nonEntitySchoolLogo": null,
+                            "groupLogo": null,
+                            "schoolLogo": null,
+                            "ghostImage": null,
+                            "nonEntityProfilePicture": {
+                                "*profile": "urn:li:fsd_profile:ACoAABS4ti4BowbzklPxph_iWdXRgSs5z0lKLo8",
+                                "ringStatus": null,
+                                "$recipeTypes": [
+                                    "com.linkedin.4b009c1d6ea192a94bda77fb9ace3a7d"
+                                ],
+                                "vectorImage": {
+                                    "digitalmediaAsset": null,
+                                    "attribution": null,
+                                    "c2paManifestData": null,
+                                    "$recipeTypes": [
+                                        "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9"
+                                    ],
+                                    "artifacts": [
+                                        {
+                                            "width": 100,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "https://media.licdn.com/dms/image/C4E03AQFzT_CasO6EIA/profile-displayphoto-shrink_100_100/0/1516874305365?e=1724889600&v=beta&t=r_6c3DIVz5x4ZQn7jwnULPg1zzsCM0WWBLvFjPJA2WA",
+                                            "expiresAt": 1724889600000,
+                                            "height": 100,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        }
+                                    ],
+                                    "rootUrl": "",
+                                    "$type": "com.linkedin.common.VectorImage"
+                                },
+                                "$type": "com.linkedin.voyager.dash.common.image.NonEntityProfilePicture"
+                            }
+                        },
+                        "tintColor": null,
+                        "$recipeTypes": [
+                            "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                        ],
+                        "tapTargets": [],
+                        "displayAspectRatio": null,
+                        "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                    }
+                ],
+                "editableAccessibilityText": false,
+                "actionTarget": null,
+                "accessibilityTextAttributes": [],
+                "totalCount": null,
+                "accessibilityText": "Ricardo Angel Granados López",
+                "$recipeTypes": [
+                    "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+            },
+            "secondarySubtitle": {
+                "textDirection": "USER_LOCALE",
+                "text": "3 mnd  ",
+                "attributesV2": [
+                    {
+                        "start": 6,
+                        "length": 1,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": "IC_GLOBE_16DP",
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": null,
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    }
+                ],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "entityEmbeddedObject": {
+                "summary": null,
+                "image": {
+                    "attributes": [
+                        {
+                            "scalingType": "ASPECT_FILL",
+                            "detailData": {
+                                "profilePictureWithoutFrame": null,
+                                "profilePictureWithRingStatus": null,
+                                "companyLogo": null,
+                                "icon": null,
+                                "systemImage": null,
+                                "nonEntityGroupLogo": null,
+                                "vectorImage": {
+                                    "digitalmediaAsset": null,
+                                    "attribution": null,
+                                    "c2paManifestData": null,
+                                    "$recipeTypes": [
+                                        "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9"
+                                    ],
+                                    "artifacts": [
+                                        {
+                                            "width": 600,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "800/0/1711125764778?e=1720166400&v=beta&t=hm_HM-OhEfFw6Xe0yXoijmQTHG-1E377Y3l1F4Ao1Ow",
+                                            "expiresAt": 1720166400000,
+                                            "height": 350,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        },
+                                        {
+                                            "width": 600,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "1280_800/0/1711125764778?e=1720166400&v=beta&t=uxpDD_D2nTySzRJjwKxGClvFSDDoPFWk4LIK-AY40Pw",
+                                            "expiresAt": 1720166400000,
+                                            "height": 350,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        },
+                                        {
+                                            "width": 160,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "160/0/1711125764779?e=1720166400&v=beta&t=Oyc1AQ-_VMtserWWuAikroiR2TG95Z4WLdaWE27nzrA",
+                                            "expiresAt": 1720166400000,
+                                            "height": 93,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        },
+                                        {
+                                            "width": 480,
+                                            "$recipeTypes": [
+                                                "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                            ],
+                                            "fileIdentifyingUrlPathSegment": "480/0/1711125764779?e=1720166400&v=beta&t=hHzMa-QYubX67eUbTaIA5DIAEVR8f1Q4wMSv8Wiiv-o",
+                                            "expiresAt": 1720166400000,
+                                            "height": 280,
+                                            "$type": "com.linkedin.common.VectorArtifact"
+                                        }
+                                    ],
+                                    "rootUrl": "https://media.licdn.com/dms/image/sync/D4E27AQHZ2USTu7ToTQ/articleshare-shrink_",
+                                    "$type": "com.linkedin.common.VectorImage"
+                                },
+                                "nonEntityProfessionalEventLogo": null,
+                                "profilePicture": null,
+                                "imageUrl": null,
+                                "professionalEventLogo": null,
+                                "nonEntityCompanyLogo": null,
+                                "nonEntitySchoolLogo": null,
+                                "groupLogo": null,
+                                "schoolLogo": null,
+                                "ghostImage": null,
+                                "nonEntityProfilePicture": null
+                            },
+                            "tintColor": null,
+                            "$recipeTypes": [
+                                "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                            ],
+                            "tapTargets": [],
+                            "displayAspectRatio": null,
+                            "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                        }
+                    ],
+                    "editableAccessibilityText": false,
+                    "actionTarget": null,
+                    "accessibilityTextAttributes": [],
+                    "totalCount": null,
+                    "accessibilityText": "Voorbeeld van afbeelding",
+                    "$recipeTypes": [
+                        "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+                },
+                "headerThumbnail": null,
+                "secondarySubtitle": null,
+                "trackingUrn": null,
+                "primaryActions": [],
+                "showPlayButton": false,
+                "title": {
+                    "textDirection": "FIRST_STRONG",
+                    "text": "Fundamentals of Analytics Engineering: An Introduction to Building End-to-End Analytics Solutions (English Edition)",
+                    "attributesV2": [
+                        {
+                            "start": 0,
+                            "length": 12,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": null,
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": "BOLD",
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        },
+                        {
+                            "start": 13,
+                            "length": 2,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": null,
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": "BOLD",
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        },
+                        {
+                            "start": 16,
+                            "length": 9,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": null,
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": "BOLD",
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        }
+                    ],
+                    "accessibilityTextAttributesV2": [],
+                    "accessibilityText": null,
+                    "$recipeTypes": [
+                        "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                },
+                "$recipeTypes": [
+                    "com.linkedin.bd93318ac5710b71fba68ebb50fd5bfd"
+                ],
+                "renderStyle": "DEFAULT_CONTENT",
+                "$type": "com.linkedin.voyager.dash.search.EntityEmbeddedObject",
+                "primarySubtitle": {
+                    "textDirection": "USER_LOCALE",
+                    "text": "amazon.nl",
+                    "attributesV2": [],
+                    "accessibilityTextAttributesV2": [],
+                    "accessibilityText": null,
+                    "$recipeTypes": [
+                        "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                },
+                "headerTitle": null
+            },
+            "navigationUrl": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7178746266992959488%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4",
+            "unreadIndicatorDetails": null,
+            "$recipeTypes": [
+                "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109"
+            ],
+            "target": {
+                "updateV2Urn": "urn:li:fs_updateV2:(urn:li:activity:7178746266992959488,BLENDED_SEARCH_FEED,EMPTY,DEFAULT,false)",
+                "profile": null
+            },
+            "$type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+            "actorTrackingUrn": "urn:li:member:347649582",
+            "navigationContext": {
+                "openExternally": false,
+                "$recipeTypes": [
+                    "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                ],
+                "url": "https://www.linkedin.com/search/results/content/?keywords=fundamentals%20of%20analytics%20engineering&update=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7178746266992959488%2CBLENDED_SEARCH_FEED%2CEMPTY%2CDEFAULT%2Cfalse%29&searchId=15a49aba-1ed3-463a-b535-130735ab04e4",
+                "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+            }
+        },
+        {
+            "entityUrn": "urn:li:fsd_lazyLoadedActions:(urn:li:activity:7201220720968818689,CONTENT,SEARCH_SRP)",
+            "$recipeTypes": [
+                "com.linkedin.92ece182782ae4412e712925cd97f9fe"
+            ],
+            "$type": "com.linkedin.voyager.dash.search.LazyLoadedActions"
+        },
+        {
+            "entityUrn": "urn:li:fsd_lazyLoadedActions:(urn:li:activity:7179433074068201473,CONTENT,SEARCH_SRP)",
+            "$recipeTypes": [
+                "com.linkedin.92ece182782ae4412e712925cd97f9fe"
+            ],
+            "$type": "com.linkedin.voyager.dash.search.LazyLoadedActions"
+        },
+        {
+            "entityUrn": "urn:li:fsd_lazyLoadedActions:(urn:li:activity:7178746266992959488,CONTENT,SEARCH_SRP)",
+            "$recipeTypes": [
+                "com.linkedin.92ece182782ae4412e712925cd97f9fe"
+            ],
+            "$type": "com.linkedin.voyager.dash.search.LazyLoadedActions"
+        }
+    ]
+}

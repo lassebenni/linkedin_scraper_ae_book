@@ -1,0 +1,44 @@
+[
+    {
+        "title": {
+            "text": "Connor Dickson"
+        },
+        "primary_subtitle": null,
+        "summary": {
+            "text_direction": null,
+            "text": "The concept of analytics engineering is comparatively new. \n\nTaking data engineering tasks and mashing it with the responsibilities of data analysts is somewhat novel. \n\nThat’s why I’m excited that Packt wrote a book on the Fundamentals of Analytics Engineering and sent me a copy! \n\nTheir book touches on topics such as:\n\n🔨 Building Data Pipelines \n\n🤔 Data Strategy \n\n👷‍♂️Building a Data Platform \n\nIf you want to learn more about analytics engineering, you’re in luck, Packt is giving away five copies (2 physical, 3 ebooks) of Fundamentals of Analytics Engineering! \n\nIf you want a chance to win a copy, just comment on this post and I’ll pick the winners with a RNG.  \n\nThe winners will be tagged in a future post, and receive a message from me. Don’t fall for any scams. Only my verfied account will be messaging you about the winners. \n\n#datawithdickson #analyticsengineering"
+        },
+        "actor_navigation_url": null,
+        "entity_embedded_object": null,
+        "navigation_url": null,
+        "template": "CONTENT_A"
+    },
+    {
+        "title": {
+            "text": "Fanny Kassapian"
+        },
+        "primary_subtitle": null,
+        "summary": {
+            "text_direction": null,
+            "text": "We wrote a book!!! 📘 🎉 \n\nI can't believe we made this happen in just a year. There was no blood, but there definitely was sweat and tears 😂. Incredibly proud of the amount of knowledge we put together. Thank you to the dream team: Juan Manuel Perafan Taís Laurindo Pereira Ricardo Angel Granados López Lasse Benninga Jovan Gligorevic Dumky de Wilde"
+        },
+        "actor_navigation_url": null,
+        "entity_embedded_object": null,
+        "navigation_url": null,
+        "template": "CONTENT_B"
+    },
+    {
+        "title": {
+            "text": "Dumky de Wilde"
+        },
+        "primary_subtitle": null,
+        "summary": {
+            "text_direction": null,
+            "text": "We wrote the book I wish I’d had five years ago and last week I was able to present it at our 10th analytics engineering meetup. There is a figure-it-out-yourself mentality in the data & analytics field that I enjoy tremendously, but sometimes it is nice to have a shortcut. The Fundamentals of Analytics Engineering (https://amzn.to/43KxIik) is one of those shortcuts. Each one of the amazing authors brings their own perspective and experience to get you up to speed on data warehouses, data modelling, data ingestion, observability, stakeholder management and navigating the tech landscape. Thanks for the journey Juan Manuel Perafan, Ricardo Angel Granados López Fanny Kassapian Taís Laurindo Pereira Lasse Benninga Jovan Gligorevic"
+        },
+        "actor_navigation_url": null,
+        "entity_embedded_object": null,
+        "navigation_url": null,
+        "template": "CONTENT_A"
+    }
+]

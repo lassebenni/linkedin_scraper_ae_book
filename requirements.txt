@@ -1,0 +1,6 @@
+linkedin-scraper==2.11.2
+selenium==4.2.0
+requests
+datamodel-code-generator
+pydantic
+requests-cache
