@@ -2,9 +2,21 @@ from typing import Optional
 from pydantic import BaseModel
 import re
 import unicodedata
+from datetime import datetime
+import uuid
+
+import hashlib
+import re
+import unicodedata
+from datetime import datetime
+from typing import Optional
+from pydantic import BaseModel
+import uuid
 
 
 class LinkedinPost(BaseModel):
+    id: Optional[str] = None
+    created: Optional[datetime] = datetime.now()
     author: Optional[str] = None
     bio: Optional[str] = None
     author_url: Optional[str] = None
@@ -29,3 +41,16 @@ class LinkedinPost(BaseModel):
                 data[field] = clean_text(data[field])
 
         super().__init__(**data)
+        self.generate_id()
+
+    def generate_id(self):
+        # Concatenate all relevant fields except 'created' and 'id'
+        fields_concat = "".join(
+            [
+                str(getattr(self, field))
+                for field in self.__fields__.keys()
+                if field not in ["created", "id"] and getattr(self, field) is not None
+            ]
+        )
+        # Generate hash
+        self.id = hashlib.sha256(fields_concat.encode()).hexdigest()

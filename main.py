@@ -41,21 +41,24 @@ def crawl() -> dict:
     return response.json()
 
 
-def load_existing_posts(file_path):
+def load_existing_posts(file_path) -> List[LinkedinPost]:
     """Load existing posts from a JSON file."""
-    try:
-        with open(file_path, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return []
+    posts = []
+
+    with open(file_path, "r") as f:
+        res = json.load(f)
+        for post in res:
+            posts.append(LinkedinPost(**post))
+
+    return posts
 
 
-def find_new_posts(existing_posts, new_posts):
-    """Find and return posts that are new."""
-    existing_posts_set = {json.dumps(post, sort_keys=True) for post in existing_posts}
-    new_posts_list = [post.dict() for post in new_posts]
-    new_posts_set = {json.dumps(post, sort_keys=True) for post in new_posts_list}
-    return [json.loads(post) for post in new_posts_set - existing_posts_set]
+def find_new_posts(
+    existing_posts: List[LinkedinPost], new_posts: List[LinkedinPost]
+) -> List[LinkedinPost]:
+    """Find and return posts that are new, based on unique UUID."""
+    existing_uuids = {post.id for post in existing_posts}
+    return [post for post in new_posts if post.id not in existing_uuids]
 
 
 def extract_posts_from_response(
@@ -70,7 +73,10 @@ def extract_posts_from_response(
     posts: List[LinkedinPost] = []
     for included_element in linkedin_response.included:
         # Only include posts that have 'fundamentals' in the text
-        if "fundamentals of analytics engineering" in included_element.summary.text.lower():
+        if (
+            "fundamentals of analytics engineering"
+            in included_element.summary.text.lower()
+        ):
             post: LinkedinPost = LinkedinPost(
                 author=included_element.title.text,
                 bio=included_element.primary_subtitle.text,
@@ -98,9 +104,8 @@ if __name__ == "__main__":
     new_posts = find_new_posts(existing_posts, posts)
     print(f"Found {len(new_posts)} new posts:")
 
-    # Optionally, update the JSON file with the new combined list of posts
-    combined_posts = existing_posts + [
-        post.dict() for post in posts if post.dict() not in existing_posts
-    ]
+    combined_posts = existing_posts + new_posts
+    combined_posts = [post.dict() for post in combined_posts]
+
     with open("data/posts.json", "w") as f:
-        json.dump(combined_posts, f, indent=2)
+        json.dump(combined_posts, f, indent=3, default=str)
