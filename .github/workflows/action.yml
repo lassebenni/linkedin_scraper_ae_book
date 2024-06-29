@@ -3,8 +3,8 @@ name: Run Linkedin search for 'Fundamentals of Analytics Engineering'
 on:
   workflow_dispatch:
   push:
-  # schedule:
-#    - cron: "* 9 * * *" # every day at 9 am
+  schedule:
+   - cron: "0 9 * * *" # every day at 9 am
 
 jobs:
   run:
